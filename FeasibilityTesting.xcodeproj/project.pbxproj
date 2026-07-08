@@ -10,9 +10,22 @@
 		5B8672382FFCA87D00D4CABE /* FeasibilityTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeasibilityTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5B8673632FFDF52100D4CABE /* Exceptions for "FeasibilityTesting" folder in "FeasibilityTesting" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5B8672372FFCA87D00D4CABE /* FeasibilityTesting */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5B86723A2FFCA87D00D4CABE /* FeasibilityTesting */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5B8673632FFDF52100D4CABE /* Exceptions for "FeasibilityTesting" folder in "FeasibilityTesting" target */,
+			);
 			path = FeasibilityTesting;
 			sourceTree = "<group>";
 		};
@@ -259,6 +272,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeasibilityTesting/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +305,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FeasibilityTesting/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
